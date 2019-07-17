@@ -11,7 +11,7 @@
         <div class="sidebar">
             <nav>
                 <ul>
-                    <li><a href="../index.html">ABOUT</a></li>
+                    <li><a href="/">ABOUT</a></li>
                     <li><a href="#">PORTFOLIO</a></li>
                     <li><a href="http://35.154.240.137/">COURSES</a></li>
                     <li><a href="#">CONTACT</a></li>

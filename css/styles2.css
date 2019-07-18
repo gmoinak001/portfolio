@@ -28,7 +28,7 @@ body {
 	display: grid;
 	grid-template-areas: "sidebar" "content" "services" "content2" "footer";
 	grid-template-columns: 1fr;
-	grid-template-rows: 130px 650px 500px 550px 350px;
+	grid-template-rows: 130px 650px 500px 580px 350px;
 }
 
 .content,
@@ -131,7 +131,7 @@ nav li {
 
 
 .content2 ul {
-	max-width: 640px;
+	max-width: 800px;
 	padding: 0em;
 	text-align: center;
 	display: flex;

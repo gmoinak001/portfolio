@@ -46,22 +46,9 @@
                 </div>
             </section>
         </div>
-        <div class="services">
-            <p style="text-align: center; color: #373d46;">Our Services</p>
-            <ul>
-                <li>
-                    <img src="../images/msurvey.svg" />
-                    <p>Market Survey</p>
-                </li>
-                <li>
-                    <img src="../images/mdigital.svg" />
-                    <p>Digital Marketing</p>
-                </li>
-                <li>
-                    <img src="../images/mcourses.svg" />
-                    <p>Marketing Courses</p>
-                </li>
-            </ul>
+        <div class="content2">
+            <p style="text-align: center; color: #373d46;">Companies we worked for</p>
+            
         </div>
         <div class="content2">
             <p style="text-align: center; color: #373d46;">Companies we worked for</p>

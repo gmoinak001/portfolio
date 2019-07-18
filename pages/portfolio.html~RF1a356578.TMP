@@ -50,15 +50,12 @@
             <p style="text-align: center; color: #373d46;">Our Services</p>
             <ul>
                 <li>
-                    <img src="../images/msurvey.svg" />
                     <p>Market Survey</p>
                 </li>
                 <li>
-                    <img src="../images/mdigital.svg" />
-                    <p>Digital Marketing</p>
+                    <p>Digital Marketing & SEO</p>
                 </li>
                 <li>
-                    <img src="../images/mcourses.svg" />
                     <p>Marketing Courses</p>
                 </li>
             </ul>

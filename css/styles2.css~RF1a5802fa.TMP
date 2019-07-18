@@ -45,7 +45,6 @@ body {
 .content2 {
 	margin: 1em auto;
 	height: auto;
-	overflow-y: scroll;
 }
 
 nav ul {

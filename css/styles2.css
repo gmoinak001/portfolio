@@ -28,14 +28,17 @@ body {
 	display: grid;
 	grid-template-areas: "sidebar" "content" "content2" "footer";
 	grid-template-columns: 1fr;
-	grid-template-rows: 130px 800px 250px;
+	grid-template-rows: 130px 660px 250px;
 }
 
 .content,
-.content2,
 .sidebar,
 .footer {
 	padding: 1em;
+}
+
+.content2 {
+	overflow: scroll;
 }
 
 nav ul {
@@ -103,7 +106,6 @@ nav li {
 
 .content2 ul {
 	max-width: 640px;
-	margin: auto;
 	padding: 0em;
 	text-align: center;
 	display: flex;
@@ -193,6 +195,13 @@ svg {
 
 	svg {
 		width: 20%;
+	}
+
+	.content2 {
+		height: 100vh;
+		padding: 1em;
+		margin: 1em auto;
+		overflow: hidden;
 	}
 
 	.content2 ul {

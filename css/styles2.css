@@ -39,6 +39,7 @@ body {
 
 .content2 {
 	overflow: scroll;
+	margin: 1em auto;
 }
 
 nav ul {

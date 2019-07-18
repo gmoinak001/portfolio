@@ -28,7 +28,7 @@ body {
 	display: grid;
 	grid-template-areas: "sidebar" "content" "content2" "footer";
 	grid-template-columns: 1fr;
-	grid-template-rows: 130px 660px 250px;
+	grid-template-rows: 130px 660px 550px 350px;
 }
 
 .content,
@@ -38,8 +38,9 @@ body {
 }
 
 .content2 {
-	overflow: scroll;
 	margin: 1em auto;
+	height: auto;
+	overflow-y: scroll;
 }
 
 nav ul {
@@ -110,7 +111,8 @@ nav li {
 	padding: 0em;
 	text-align: center;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
+	margin: 2em auto;
 }
 
 	.content2 ul li {
@@ -120,6 +122,10 @@ nav li {
 
 .content2 img {
 	width: 90%;
+}
+
+.content2 p {
+	font-size: 50px;
 }
 
 .footer ul {
@@ -206,6 +212,7 @@ svg {
 	}
 
 	.content2 ul {
+		flex-direction: row;
 		max-width: 960px;
 		margin: 0 auto;
 		padding: 2em 0;
